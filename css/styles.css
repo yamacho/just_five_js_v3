@@ -16,6 +16,11 @@
   line-height: 60px;
 }
 
+#result.perfect {
+  background: #fa5858;
+  color: #fff;
+}
+
 #start {
   float: left;
 }
