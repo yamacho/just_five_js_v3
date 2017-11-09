@@ -16,6 +16,8 @@
     startTime = Date.now();
     this.className = 'pushed';
     stop.className = '';
+    result.textContent = '0.000';
+    result.className = 'standby';
   });
 
   stop.addEventListener('click', function() {
@@ -31,6 +33,7 @@
     result.textContent = elapsedTime.toFixed(3);
     this.className = 'pushed';
     start.className = '';
+    result.className = '';
 
     diff = elapsedTime - 5.0;
     if (Math.abs(diff) < 1.0) {

@@ -16,6 +16,10 @@
   line-height: 60px;
 }
 
+#result.standby {
+  opacity: 0.5;
+}
+
 #result.perfect {
   background: #fa5858;
   color: #fff;
